@@ -29,7 +29,7 @@ except ImportError:
 from docopt import docopt
 
 logging.basicConfig(level=logging.INFO)
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 __author__ = "Bartosz Dąbrowski"
 __license__ = "MIT"
 

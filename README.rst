@@ -3,13 +3,13 @@ resize
 ===============================
 
 .. image:: https://badge.fury.io/py/resize.png
-    :target: http://badge.fury.io/py/resize
+    :target: http://badge.fury.io/py/resizer
 
 .. image:: https://travis-ci.org/bdabrowski/resize.png?branch=master
-        :target: https://travis-ci.org/bdabrowski/resize
+        :target: https://travis-ci.org/bdabrowski/resizer
 
 .. image:: https://pypip.in/d/resize/badge.png
-        :target: https://crate.io/packages/resize?version=latest
+        :target: https://crate.io/packages/resizer?version=latest
 
 
 Simple command line utility for re-sizing images in a batch operation.
