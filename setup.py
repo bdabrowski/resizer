@@ -14,7 +14,6 @@ TEST_REQUIRES = [
     'pytest',
     'pytest-datafiles',
     'invoke==0.14.0',
-    'tox',
 ]
 
 
