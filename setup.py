@@ -16,6 +16,10 @@ TEST_REQUIRES = [
     'invoke==0.14.0',
 ]
 
+extras = {
+    'test': TEST_REQUIRES,
+}
+
 
 class PyTest(TestCommand):
     def finalize_options(self):
@@ -89,5 +93,6 @@ setup(
         ]
     },
     tests_require=TEST_REQUIRES,
+    extras_require=extras,
     cmdclass={'test': PyTest}
 )
