@@ -10,6 +10,13 @@ REQUIRES = [
     'Pillow==5.3.0',
 ]
 
+TEST_REQUIRES = [
+    'pytest',
+    'pytest-datafiles',
+    'invoke==0.14.0',
+    'tox',
+]
+
 
 class PyTest(TestCommand):
     def finalize_options(self):
@@ -82,6 +89,6 @@ setup(
             "resize = resize:main"
         ]
     },
-    tests_require=['pytest'],
+    tests_require=TEST_REQUIRES,
     cmdclass={'test': PyTest}
 )
