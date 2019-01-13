@@ -11,7 +11,7 @@ python:
   - "pypy"
 
 # command to install dependencies
-install: pip install -U .
+install: pip install -U . && pip install -r dev-requirements.txt
 
 # command to run tests, e.g. python setup.py test
 script: py.test
