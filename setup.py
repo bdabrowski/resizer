@@ -7,7 +7,7 @@ from setuptools.command.test import test as TestCommand
 
 REQUIRES = [
     'docopt',
-    'Pillow==5.3.0',
+    'Pillow==6.2.0',
 ]
 
 TEST_REQUIRES = [
